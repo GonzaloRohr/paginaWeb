@@ -1,0 +1,335 @@
+@media only screen and (min-width: 450px) and (max-width: 650px){
+
+	nav{
+		height: 14%;
+		position: fixed;
+		margin: 0;
+	}
+
+	nav ul,nav ul li{
+		padding:0;
+	}
+	
+	nav ul li a, nav ul li a img{
+		width: 30%;
+	}
+
+	nav ul li a{
+		padding: 3%;
+	}
+
+	#logo a{
+		padding-top: 2%;
+		padding-left: 4%;
+	}
+
+
+	.encabezado {
+		margin-top: 19%;
+ 		height: 85vh;
+	}
+
+	.descrpPagUno{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 10%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        overflow: hidden;
+	}
+
+
+	.descrpPag{
+		width: 100%;
+		padding: 0;
+		font-size: 0.90em;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+	}
+
+	.descrpPag h2{
+		margin-top: 0;
+		font-size: 1.5em;
+
+	}
+
+	.descrpPag h3{
+		text-align: center;
+		font-size: 1em;
+		color: #FFFFFF;
+		background-color: #4482c3;
+		border-radius: 10%;
+		border: 1px solid #66bb00;
+	}
+
+	#fotoDescrpPortafolio{
+		width: 100%;
+		height: 30vh;
+		margin-left: 0;
+		margin-top: 20%;
+		background-size: 60% 60%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.descrpPagDos{
+		padding: 0;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	
+	#fotoDescrpEmprendedor{
+		width: 100%;
+		height: 30vh;
+		margin-top: 5%;
+		margin-left: 0;
+		background-size: 60% 70%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+	#fotoDescrpTienda{
+		width: 100%;
+		height: 30vh;
+		margin-left: 0;
+		margin-top: 20%;
+		background-size: 60% 60%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.secBCuerpo{
+		height: 90vh;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.BFotoUno{
+ 		-webkit-box-flex: 1;
+ 		    -ms-flex-positive: 1;
+ 		        flex-grow: 1;
+		background-image: url('../pagina/fotos/movileFondoSecionC.png');
+        background-size: 70% 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+	}
+
+	.BFotoDos{
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+	}
+
+	.contVideo{
+		height: 60vh;
+		background-image: url('../pagina/fotos/mensajeria.svg');
+  		background-size: 50% 50%;
+  		background-repeat: repeat;
+	}
+
+	#video{
+		display: none;
+	}
+
+	.contFormulario{
+		width: 70%;
+		height: 10vh;
+		margin-left: 10%;
+	}
+
+	form{
+		color: #FFFFFF;
+		width: 100%;
+		padding: 5px 10px;
+	}
+
+	textarea{
+		height: 5vh;
+		min-height: 50px;
+		max-height: 50px;
+		max-width:  100%;
+		min-width: 100%;
+	}
+
+	input, textarea{
+		width: 100%;
+	}
+
+	footer{
+		height: 10vh;
+	}
+
+}
+@media only screen and (min-width: 450px) and (max-width: 650px) and (orientation: landscape){
+	
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 800px){
+
+	nav{
+		position: fixed;
+		margin: 0;
+	}
+
+	nav ul,nav ul li{
+		padding:0;
+	}
+	
+	nav ul li a, nav ul li a img{
+		width: 30%;
+	}
+
+	nav ul li a{
+		padding: 3%;
+	}
+	
+	#logo a{
+		padding-top: 2%;
+		padding-left: 4%;
+	}
+
+	.encabezado {
+		margin-top: 15.3%;
+ 		height: 85vh;
+	}
+
+	#fotoDescrpPortafolio{
+		width: 45%;
+		height: 45vh;
+		margin: 2em;
+		margin-top: 20%;
+	}
+
+	#fotoDescrpEmprendedor{
+		width: 45%;
+		height: 45vh;
+		margin: 2em;
+		margin-top: 20%;
+	}
+	
+	#fotoDescrpTienda{
+		width: 45%;
+		height: 45vh;
+		margin: 2em;
+		margin-top: 20%;
+	}
+
+	.secBCuerpo{
+		height: 90vh;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.BFotoUno{
+ 		-webkit-box-flex: 1;
+ 		    -ms-flex-positive: 1;
+ 		        flex-grow: 1;
+ 		background-image: url('../pagina/fotos/movileFondoSecionC.png');
+        background-size: 70% 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+	}
+
+	.BFotoDos{
+		-webkit-box-flex: 2;
+		    -ms-flex-positive: 2;
+		        flex-grow: 2;
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+	}
+
+	.contVideo{
+		height: 90vh;
+
+	}
+
+	.contFormulario{
+		height: 90vh;
+	}
+
+	form{
+		padding: 10px 30px;
+	}
+
+	footer{
+		margin-top: 30%;
+		height: 10vh;
+	}
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1300px){
+	
+	nav{
+		position: fixed;
+		margin: 0;
+	}
+
+	nav ul,nav ul li{
+		padding:0;
+	}
+	
+	nav ul li a, nav ul li a img{
+		width: 30%;
+	}
+
+	nav ul li a{
+		padding: 3%;
+	}
+	
+	#logo a{
+		padding-top: 0.50%;
+		padding-left: 4%;
+	}
+
+	.encabezado {
+		margin-top: 7.3%;
+ 		height: 85vh;
+	}
+
+	.secBCuerpo{
+		height: 110vh;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.BFotoUno{
+		margin-top: 10%;
+ 		-webkit-box-flex: 1;
+ 		    -ms-flex-positive: 1;
+ 		        flex-grow: 1;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+	}
+
+	.BFotoDos{
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+        background-size: 60% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+	}
+
+
+}

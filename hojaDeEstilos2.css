@@ -1,0 +1,290 @@
+
+	/* Descripcion de servicios */
+	.cajaDescrpPag{
+		width: 100%;
+		background-image: -o-linear-gradient(#c2e9fd 10%,#b4d7e9 99%, #272727);
+		background-image: -webkit-gradient(linear,left top, left bottom,color-stop(10%, #c2e9fd),color-stop(99%, #b4d7e9), to(#272727));
+		background-image: linear-gradient(#c2e9fd 10%,#b4d7e9 99%, #272727);
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+        overflow: hidden;
+	}
+
+	.descrpPagUno{
+		width: 100%;
+		padding: 5%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.descrpPag{
+		padding-top: 7%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-flex: 2;
+		    -ms-flex-positive: 2;
+		        flex-grow: 2;
+	}
+
+	.descrpPag h2{
+		font-family:'Montserrat', fantasy, sans-serif;
+		font-size: 2em;
+	}
+
+	.descrpPag ul{
+		list-style-image: url("../pagina/iconosBody/checkList.png");
+	}
+
+	.descrpPag ul li{
+		font-family: 'Crimson Text', sans-serif;
+		font-size: 1.3em;
+		padding: 3px;
+
+	}
+
+	.boton:hover{
+		cursor: pointer;
+		background-image: -o-linear-gradient(#d9d9d9, white, #d9d9d9);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), color-stop(white), to(#d9d9d9));
+		background-image: linear-gradient(#d9d9d9, white, #d9d9d9);
+	}
+
+	#fotoDescrpPortafolio{
+		width: 25%;
+		margin: 3em;
+		margin-top: 10%;
+		background-image: url('../pagina/fotos/portafolioLogo.png');
+		background-size: 100% 100%;
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+	}
+
+	.descrpPagDos{
+		width: 100%;
+		padding: 5%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	#fotoDescrpEmprendedor{
+		width: 25%;
+		margin: 3em;
+		margin-top: 10%;
+		background-image: url('../pagina/fotos/emprendedorLogo.png');
+		background-size: 100% 100%;
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+	}
+
+	#fotoDescrpTienda{
+		width: 25%;
+		margin: 3em;
+		margin-top: 10%;
+		background-image: url('../pagina/fotos/tiendaLogo.png');
+		background-size: 100% 100%;
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+	}
+
+	.seccionB{
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;	    
+        overflow: hidden;
+	}
+
+	.secBTitulo{
+		width: 100%;
+		color: white;
+		background-color: #272727;
+		text-align: center;
+		font-family: 'Montserrat', fantasy, sans-serif;
+		font-size: 3em;
+		padding: 5%;
+		padding-top: 8%;
+		 -webkit-box-sizing: border-box;
+                box-sizing: border-box;	    
+        overflow: hidden;
+	}
+
+	.secBTitulo p{
+		font-size: 0.4em;
+	}
+
+	.secBCuerpo{
+		width: 100%;
+		height: 70vh;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		background: #272727;
+		 -webkit-box-sizing: border-box;
+                box-sizing: border-box;	    
+        overflow: hidden;
+	}
+
+	.BFotoUno{
+		-webkit-box-flex: 2;
+		    -ms-flex-positive: 2;
+		        flex-grow: 2;
+		background-image: url('../pagina/fotos/sectionC.png');
+		background-size: 100% 100%;
+		
+	}
+
+	.BFotoDos{
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+		background-image: url('../pagina/fotos/sectionD.png');
+		background-size: cover;
+	}
+
+	#video{
+		width: 100%;
+		height: auto;
+	}
+
+	.contVideo{
+		width: 100%;
+		height: 90vh;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.contFormulario{
+		width: 50%;
+		height: 30vh;
+		position: absolute;
+		left: 30px;
+		top: 30px;
+		-webkit-transform:;
+		    -ms-transform:;
+		        transform:
+	}
+
+	form{
+		width: 100%;
+		margin: auto;
+		font-family: 'Crimson Text', sans-serif;
+		background: rgba(0, 0, 0, 0.5);
+		padding: 30px 50px;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	form h2{
+		font-size: 2em;
+		text-align: center;
+		margin-top: 7%;
+		margin-bottom: 8%;
+	}
+
+	input, textarea{
+		width: 100%;
+		font-size: 1.3em;
+		margin-bottom: 5%;
+		padding: 7px;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		border: none;
+	}
+
+	textarea{
+		min-height: 100px;
+		max-height: 100px;
+		max-width:  100%;
+		min-width: 100%;
+	}
+	
+	#boton{		background-color: #787879	}
+
+	#boton:hover{	cursor: pointer;	}
+
+	footer{
+		width: 100%;
+		height: 15vh;
+		background-color:	;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:row;
+		        flex-direction:row;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.secFooter{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		border: 1px solid #30aae9;
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+	}
+
+	#mail{
+		color: white;
+		font-size: 1.2em;
+		font-family: ;
+
+	}
+
+	#boton:hover{
+		cursor: pointer;
+	}

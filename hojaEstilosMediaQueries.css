@@ -1,0 +1,174 @@
+
+@media only screen and (max-width: 450px) {
+
+	nav{
+		position: static;
+	}
+
+	nav ul,nav ul li{
+		padding:0;
+		padding-left: 1%;
+	}
+	
+	nav ul li a, nav ul li a img{
+		width: 30%;
+	}
+
+	.encabezado {
+		margin: 0;
+ 		height: 90vh;
+	}
+
+	.texto{
+		height: 75vh;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.texto h1{
+		font-size: 1em;
+	}
+	
+	.tituloSeccionB{
+		height: 40vh;
+		font-size: 1.3em;
+	}
+
+	.descrpPagUno{
+		width: 100%;
+		padding: 0;
+		margin-bottom: 10%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        overflow: hidden;
+	}
+
+
+	.descrpPag{
+		width: 100%;
+		padding: 5%;
+		font-size: 0.90em;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+	}
+
+	.descrpPag h2{
+		margin-top: 0;
+		font-size: 1.5em;
+
+	}
+
+	.descrpPag h3{
+		text-align: center;
+		font-size: 1em;
+		color: #FFFFFF;
+		background-color: #4482c3;
+		border-radius: 10%;
+		border: 1px solid #66bb00;
+	}
+
+	#fotoDescrpPortafolio{
+		width: 60%;
+		height: 20vh;
+		background-position: center;
+		margin-top: 20%;
+		margin-left: 25%;
+		margin-bottom: 10%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+
+	.descrpPagDos{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+
+	}
+	
+	#fotoDescrpEmprendedor{
+		width: 60%;
+		height: 20vh;
+		margin-top: 20%;
+		margin-left: 20%;
+		margin-bottom: 10%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+	
+	#fotoDescrpTienda{
+		width: 60%;
+		height: 20vh;
+		margin-top: 20%;
+		margin-left: 20%;
+		margin-bottom: 10%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+	
+	.seccionB{
+		height: 300vh;
+	}
+	
+	.secBTitulo{
+		font-size: 2.3em;
+	}
+
+	.secBCuerpo{
+		height: 100vh;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	
+
+	.BFotoUno{
+		-webkit-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+		background-image: url('../pagina/fotos/movileFondoSecionC.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	
+	#video{
+		visibility: hidden;
+	}
+
+  	.contVideo{
+  		height: 70vh;
+  		background-image: url('../pagina/fotos/mensajeria.svg');
+  		background-size: 40% 40%;
+  		background-repeat: repeat;
+  	}
+
+	.contFormulario{
+		width: 80%;
+		margin-top: 10%;
+	}
+
+  form{ 
+  	padding: 10%; 
+  	background: rgba(0, 0, 0, 0.8);
+  }
+
+  form h2{ color: white; }
+
+  .secFooter{
+  	width: 100%;
+  	-webkit-box-flex: 0;
+  	    -ms-flex-positive: 0;
+  	        flex-grow: 0;
+  }
+
+}
